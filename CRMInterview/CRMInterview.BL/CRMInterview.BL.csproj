@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.12" />
+    <PackageReference Include="Quartz" Version="3.3.2" />
+    <PackageReference Include="Topshelf" Version="4.3.0" />
+    <PackageReference Include="Topshelf.Log4Net" Version="4.3.0" />
+    <PackageReference Include="Unity" Version="5.11.10" />
+    <PackageReference Include="Unity.RegistrationByConvention" Version="5.11.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CRMInterview.Core\CRMInterview.Core.csproj" />
+    <ProjectReference Include="..\CRMInterview.DI\CRMInterview.DI.csproj" />
+    <ProjectReference Include="..\CRMInterview.Shared\CRMInterview.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

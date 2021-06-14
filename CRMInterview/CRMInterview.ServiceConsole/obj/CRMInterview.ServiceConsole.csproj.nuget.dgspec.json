@@ -1,0 +1,396 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.ServiceConsole\\CRMInterview.ServiceConsole.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.BL\\CRMInterview.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.BL\\CRMInterview.BL.csproj",
+        "projectName": "CRMInterview.BL",
+        "projectPath": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.BL\\CRMInterview.BL.csproj",
+        "packagesPath": "C:\\Users\\Jenia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jenia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.Core\\CRMInterview.Core.csproj": {
+                "projectPath": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.Core\\CRMInterview.Core.csproj"
+              },
+              "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.DI\\CRMInterview.DI.csproj": {
+                "projectPath": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.DI\\CRMInterview.DI.csproj"
+              },
+              "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.Shared\\CRMInterview.Shared.csproj": {
+                "projectPath": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.Shared\\CRMInterview.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Topshelf": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Topshelf.Log4Net": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Unity": {
+              "target": "Package",
+              "version": "[5.11.10, )"
+            },
+            "Unity.RegistrationByConvention": {
+              "target": "Package",
+              "version": "[5.11.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.Core\\CRMInterview.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.Core\\CRMInterview.Core.csproj",
+        "projectName": "CRMInterview.Core",
+        "projectPath": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.Core\\CRMInterview.Core.csproj",
+        "packagesPath": "C:\\Users\\Jenia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jenia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Topshelf": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Topshelf.Log4Net": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.DI\\CRMInterview.DI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.DI\\CRMInterview.DI.csproj",
+        "projectName": "CRMInterview.DI",
+        "projectPath": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.DI\\CRMInterview.DI.csproj",
+        "packagesPath": "C:\\Users\\Jenia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.DI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jenia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Topshelf": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Topshelf.Log4Net": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Unity": {
+              "target": "Package",
+              "version": "[5.11.10, )"
+            },
+            "Unity.RegistrationByConvention": {
+              "target": "Package",
+              "version": "[5.11.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.ServiceConsole\\CRMInterview.ServiceConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.ServiceConsole\\CRMInterview.ServiceConsole.csproj",
+        "projectName": "CRMInterview.ServiceConsole",
+        "projectPath": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.ServiceConsole\\CRMInterview.ServiceConsole.csproj",
+        "packagesPath": "C:\\Users\\Jenia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.ServiceConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jenia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.BL\\CRMInterview.BL.csproj": {
+                "projectPath": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.BL\\CRMInterview.BL.csproj"
+              },
+              "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.Core\\CRMInterview.Core.csproj": {
+                "projectPath": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.Core\\CRMInterview.Core.csproj"
+              },
+              "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.DI\\CRMInterview.DI.csproj": {
+                "projectPath": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.DI\\CRMInterview.DI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Topshelf": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Topshelf.Log4Net": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Unity": {
+              "target": "Package",
+              "version": "[5.11.10, )"
+            },
+            "Unity.RegistrationByConvention": {
+              "target": "Package",
+              "version": "[5.11.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.Shared\\CRMInterview.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.Shared\\CRMInterview.Shared.csproj",
+        "projectName": "CRMInterview.Shared",
+        "projectPath": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.Shared\\CRMInterview.Shared.csproj",
+        "packagesPath": "C:\\Users\\Jenia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jenia\\source\\repos\\Tipranks\\CRMInterview\\CRMInterview.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jenia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Topshelf": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Topshelf.Log4Net": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
